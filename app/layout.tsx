@@ -14,42 +14,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://student-tech-picks.vercel.app"),
-
   title: "Student Tech Picks | Smarter Tech Choices",
-
   description:
-    "Research-backed laptop recommendations for students, with practical specs, MBA scores and Amazon links.",
-
-  icons: {
-    icon: "/favicon.ico",
-  },
-
-  openGraph: {
-    title: "Best Laptops for Students 2026 | Student Tech Picks",
-    description:
-      "Research-backed laptop recommendations for students, with practical specs, MBA scores and Amazon links.",
-    url: "https://student-tech-picks.vercel.app/laptops/best-students",
-    siteName: "Student Tech Picks",
-    images: [
-      {
-        url: "/student-tech-picks-og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Student Tech Picks - Best Laptops for Students 2026",
-      },
-    ],
-    locale: "en_IN",
-    type: "website",
-  },
-
-  twitter: {
-    card: "summary_large_image",
-    title: "Best Laptops for Students 2026 | Student Tech Picks",
-    description:
-      "Research-backed laptop recommendations for students, with practical specs, MBA scores and Amazon links.",
-    images: ["/student-tech-picks-og-image.png"],
-  },
+    "Practical technology buying guides and recommendations for students.",
+    icons: {
+  icon: "/favicon.ico",
+},
 };
 
 export default function RootLayout({
