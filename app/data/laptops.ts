@@ -58,7 +58,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/Dell-15-Platinum-Graphics-Standard/dp/B0FDQ2R315/ref=sr_1_1?crid=2EDBAAAGNQLVB&dib=eyJ2IjoiMSJ9.K4HDPyd3UA5YVEqsX66O_hj3_Zilwp5JrjLir2KYdpotelSoNMNlM4KafshA5RYdcEtxrnNfM_fHZuAaI8H0IxmUjvY9ceyC7lgERQyjlB-DVJbAp2HQdEQEJ4zzwn8S14bNPIVaUco2JIfQjipAys9z74WlUHPHPQ-iJIkWLYOVy34c3tGjHFOGjsC6zZcs3bk8VzYYQh84tgF7NE3k-jcwiMndcfYhm8QRXZFe7GI.yGHjx5RJKgtXlX1y1Rfi0Vcq92goTdbWnXz9fkqQigA&dib_tag=se&keywords=Dell+15+Ryzen+7+7730U+16%2F512&qid=1787493635&sprefix=dell+15+ryzen+7+7730u+16%2F512%2Caps%2C335&sr=8-1",
     "score": 8.2,
     "verdict": "Good Buy",
-    "affiliateUrl": "https://link.amazon/B0fmBOgTd",
+    "affiliateUrl": "https://www.amazon.in/Dell-15-Platinum-Graphics-Standard/dp/B0FDQ2R315?crid=379BTSXZ2KH8H&dib=eyJ2IjoiMSJ9.d0SZwWIt82cshZ5XwXkQuRn6eWEfIB6TpfR0VFC1_n__diea1FWxXe1eXGIceTmYTdX44gR2Y7rQuDkr8dDvEGwhivLDAFJfkG21PGmjqdPDWOCQeFxyMEMBR61GlDdzvViAxEZ77GHhzNVTjxLu0rv_6UJR9KdO2X3OfE8LtDat85FeWgNFIvL3Y-3SZG-dxf7euLg3F5EVERKRWC8JE56NPV0qVMBSbJrR-kUxOlg.KI39rWpkRoYlFtD5nZ38VIBqoO07eKGBQL-C7BB6s2o&dib_tag=se&keywords=Dell+15+DC15255&qid=1787542315&sprefix=dell+15+dc15255%2Caps%2C310&sr=8-3&ascsubtag=srctok-1fb9ffa3b91f9101&btn_type=ss&btn_ref=srctok-1fb9ffa3b91f9101&linkCode=ll2&tag=studentte0ce0-21&linkId=05ac49422850586058b78d29e8310ea6&ref_=as_li_ss_tl" ,
     "asin": "B0FDQ2R315",
     "imageUrl": "https://cdn.hstatic.net/products/200000706193/dell-15-dc15255-1_529ceff7570440cdb512058478d3c2fb_grande.jpg"
   },
@@ -89,7 +89,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0F8RCM49Y",
     "score": null,
     "verdict": "",
-    "affiliateUrl": "https://link.amazon/B0hNDVIxX",
+    "affiliateUrl": "https://www.amazon.in/acer-Aspire-Processor-Windows-AL15-41/dp/B0F8RCM49Y?crid=1A39SV67VZ12B&dib=eyJ2IjoiMSJ9.KxujKbkSHBlh8qfC48_mwRh42uj5F2eVWjCgHNYMYXdJ2b0EqJFV4pKQD6uEdSf_a-1eYf0cSZBRVcL620xVBZLNf5Ve18WguD6LYPyc6w7Ihg7AO8SQVysh9NYvKLpzLWfJToIynyUkrCZv59T6bQlhAxWzpPUEw14msgdnDiwkRdML-MZ5JjVo6ALrx-ccP7BPgcqJhsODmyi0_yH7nrzF85K7f9mO2xY3WOP35oc.P1TCY4IdOY7myFVDP0E6C0NJv0lqduFtCrlZslYWbkM&dib_tag=se&keywords=Aspire%2BLite%2BAL15-41%2BAMD%2BRyzen%2B5%2B7430U&qid=1787542519&sprefix=aspire%2Blite%2Bal15-41%2Bamd%2Bryzen%2B5%2B7430u%2Caps%2C303&sr=8-3&th=1&ascsubtag=srctok-1e3755153f241266&btn_type=ss&btn_ref=srctok-1e3755153f241266&linkCode=ll2&tag=studentte0ce0-21&linkId=9b95ed5b5ecb60afdc4c43c3546c9820&ref_=as_li_ss_tl" ,
     "asin": "B0F8RCM49Y",
     "imageUrl": "https://static-ecapac.acer.com/media/catalog/product/a/l/al15-41_un.31zsi.036_steel_gray_base_image_3_un.31zsi.05j.jpg"
   },
@@ -120,7 +120,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0GD76M7QK",
     "score": 8.5,
     "verdict": "Excellent MBA choice — especially for students who value portability and multitasking",
-    "affiliateUrl": "https://link.amazon/B0etyULKI",
+    "affiliateUrl": "https://www.amazon.in/Acer-TravelLite-Anti-Glare-Display-Warranty/dp/B0GD76M7QK?crid=FOUVH8FC7DIP&dib=eyJ2IjoiMSJ9.qIUI7oorfKBlUXEAESnG5clWtDnj2xTE0DWf3Gh98_GtDhqw_DYuIm3FcIpaepFIThRlTzVb8gfeHdcBZd9zU2EkzoIQ28dlXW5hLwp-iW7soCsSOatbS6IrjR_aoB6vamw1ZSjtGV6nolYTkIQlnVe9AAiPuogHl_8tGML9a8ssGw4c6EdVNCkiu2Z-RPNp.xVgjFmnsAG6uxwmBqxUfrPDnHeEQRbxXW5ODjOjbMEo&dib_tag=se&keywords=Acer+travelite+tl04-41m&qid=1787542635&sprefix=acer+travelite+tl04-41m%2Caps%2C334&sr=8-4&ascsubtag=srctok-7f4044e992f27de9&btn_type=ss&btn_ref=srctok-7f4044e992f27de9&linkCode=ll2&tag=studentte0ce0-21&linkId=d31f7249d27a1fdae6fd58085f36a4fc&ref_=as_li_ss_tl" ,
     "asin": "B0GD76M7QK",
     "imageUrl": "https://rukmini1.flixcart.com/image/1500/1500/xif0q/computer/o/h/f/-original-imahm5gyyzkfbzpf.jpeg?q=70"
   },
@@ -151,7 +151,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0F29HNJL1",
     "score": 7.3,
     "verdict": "Good budget MBA laptop, but Acer TravelLite is the better choice if prices are reasonably close",
-    "affiliateUrl": "https://link.amazon/B00ol7CS2",
+    "affiliateUrl": "https://www.amazon.in/Lenovo-Graphics-5500Mhz-Windows-Warranty/dp/B0F29HNJL1?crid=USPFC1G321P8&dib=eyJ2IjoiMSJ9.ZfwIiYyoyPimdA6_HlL5OnnFrpFJdzUU17dQ0bIJebRFFxAhffDgc_j1bH7IXqbhCJ4J4okXkJLqOLH9SngOtk4L6jrUyk37CvfFyJvWh35zJ9_A-4QHlgKa3ZkIQKQXZPPt14Kc8y1yZEjsrIsK7YArH9N4ZZwPV9rPELi6ZoxgWTbGhMmGn4VzabVvnNGFQd9J-EptDcTDZYHyw9u4hFZXuvB2UjgwWiEfyCWEddY.h1XowAVLZrEvAmSDS5R3Oro4AdVNtX45fEnV2Cu8jTw&dib_tag=se&keywords=lenovo%2BV15%2BG4%2BAMN&qid=1787603747&sprefix=lenovo%2Bv15%2Bg4%2Bamn%2Caps%2C281&sr=8-3&th=1&ascsubtag=srctok-112bc11a66955cf6&btn_type=ss&btn_ref=srctok-112bc11a66955cf6&linkCode=ll2&tag=studentte0ce0-21&linkId=68fe7934588d048d49064b14d0d3e3dc&ref_=as_li_ss_tl" ,
     "asin": "B0F29HNJL1",
     "imageUrl": "https://nordrent.lt/images/galleries/products/1690274569_imagehandler.jpg"
   },
@@ -182,7 +182,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0DCSYTVDD",
     "score": 7.8,
     "verdict": "Good MBA option, but price-sensitive; strong 16 GB DDR5 configuration, though glossy display and DOS reduce its appeal",
-    "affiliateUrl": "https://link.amazon/B0j8CdtuG",
+    "affiliateUrl": "https://www.amazon.in/HP-255-Laptop-i5-1135G7-Windows/dp/B0DCSYTVDD?crid=20CN9HCEFFWWQ&dib=eyJ2IjoiMSJ9.ivY1pGYFDqiaMBssceubvGOEpMw9hE8ksE5pajGBXgUbn5LrJ2Wnt_1djkaHZgR856p4RFeX3_EnJ79Kq1Qid7FU2jB8VN4u3r706jNhAE7jCvRUWYFEhJftqrO7ehsNz7zQHP-hGrhdlGqAKNHdMQBN969ReqTcNY6d5qMTzLVl_qLk-9KaXfR_SUDbRploa2jeC8vCv0B7K12nmbKSh-EqciOmVPTI4taKZqS0ess.8FdQDEjlBlBQogqF0L1t08MPVbEa1x4Bwsj76cdubNk&dib_tag=se&keywords=hp%2B255%2BG10&qid=1787542774&refinements=p_36%3A-5700000&rnid=7252027031&sprefix=hp%2B255%2Bg10%2Caps%2C287&sr=8-1&th=1&ascsubtag=srctok-461a8b069e8d6515&btn_type=ss&btn_ref=srctok-461a8b069e8d6515&linkCode=ll2&tag=studentte0ce0-21&linkId=5002361853aa149c51f0b02c680d9a7f&ref_=as_li_ss_tl" ,
     "asin": "B0DCSYTVDD",
     "imageUrl": "https://procomp.ba/14552536-category_default/hp-255-g10-laptop-ak9n8atw.jpg"
   },
@@ -213,7 +213,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0DG2LSP9N",
     "score": 7.9,
     "verdict": "Good laptop for MBA work, but poor value at ₹59,990 when the newer Ryzen 5 7430U version is available at a similar price",
-    "affiliateUrl": "https://link.amazon/B08wSlZiU",
+    "affiliateUrl": "https://www.amazon.in/5-5625U-Premium-Windows-AL15-41-Display/dp/B0DG2GCTD7?crid=U2AUDP39IBN6&dib=eyJ2IjoiMSJ9.YGXGmG52TD3Snmk4m1yE9gWubg-dwc715LKm0u1FUPwsPGm4o8RfxxvD9iQAsXY-0DdVqATCB6Eq0Rm6iNCTbHG3ubNGx8_u_3ejviAECyse-05BTruDA_zdY_acg3-Tp_lgdOeZgOOy79lpedcGGEniqK1Xl6F9brZJRO6B2PEfoqtqUm6R2aDpPzeen60UxXV1ldJwVX0-H30DYnQVIye8lyzjadUZXJxz5Qz9xhU.0LWNNodqm_JUkiU8I3tGZAix4R1J9WBqAnM-U7EeFwI&dib_tag=se&keywords=acer%2BAspire%2BLite%2BAL15-41&qid=1787603941&sprefix=acer%2Baspire%2Blite%2Bal15-41%2Caps%2C292&sr=8-3&th=1&ascsubtag=srctok-30e502682202ea0d&btn_type=ss&btn_ref=srctok-30e502682202ea0d&linkCode=ll2&tag=studentte0ce0-21&linkId=287f6880fb7764191361eb2369b26bb1&ref_=as_li_ss_tl" ,
     "asin": "B0DG2LSP9N",
     "imageUrl": "https://static-ecapac.acer.com/media/catalog/product/a/l/al15-41_un.31zsi.036_steel_gray_base_image_3_un.31zsi.05j.jpg"
   },
@@ -244,7 +244,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0DMFBS37T",
     "score": 7.4,
     "verdict": "Good lightweight MBA laptop for basic productivity, but not one of the strongest choices for heavier Excel, Power BI or long-term performance",
-    "affiliateUrl": "https://link.amazon/B05qaj8AZ",
+    "affiliateUrl": "https://www.amazon.in/Acer-i3-1305U-Processor-LED-Backlit-A324-53/dp/B0DMFBS37T?crid=RYV4RZY6V6SN&dib=eyJ2IjoiMSJ9.LlmuGbaATkajNTu2_yYdUAxmL4Uoh018gAdXsfLB7yvi6K1bSvVCKQVgMZhRsdh5fmMT0M2vKO0tRUxgIozP-STy92IE0fiKq2Tqnr44dO0m9y0a-cNd6Sbx94LFZy_h-4-jqNq-tAHXdfaz3BQIVX08-NYtdxGkehcmqiIfb-_mAsFts-FjvV-AMLHe1QauOs9vA3Z2vDL9rc2zoj0ObPNPTqONB4Rk-4Xdp_cgPFw.INHLCX3dVf4NbbqxeHWQQ67k-EcNX80djGk4bso3tRA&dib_tag=se&keywords=Aspire%2B3%2BA324-53&qid=1787606412&sprefix=aspire%2B3%2Ba324-53%2Caps%2C347&sr=8-3&th=1&ascsubtag=srctok-1ee5fb363fc35969&btn_type=ss&btn_ref=srctok-1ee5fb363fc35969&linkCode=ll2&tag=studentte0ce0-21&linkId=b94a02db195ff6f3557de1208cd99e4e&ref_=as_li_ss_tl" ,
     "asin": "B0DMFBS37T",
     "imageUrl": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/96/MTA-91714046/acer_acer_aspire_3_a314_23m_ryzen_3_7320u_8gb_512gb_ssd_w11_ohs_14_h_full01_purhmu3w.jpg"
   },
@@ -275,7 +275,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0FDWH5WTL",
     "score": 7.5,
     "verdict": "Good general-purpose MBA laptop with an excellent 120Hz IPS anti-glare display, but weaker value than the Ryzen 5 options at a similar price",
-    "affiliateUrl": "https://link.amazon/B0aO6pC5q",
+    "affiliateUrl": "https://www.amazon.in/Dell-Laptop-Processor-Graphics-Display/dp/B0FFHG2VGJ?crid=2N4EWHXO3TZVU&dib=eyJ2IjoiMSJ9.d4pq_mWA9-lGCBvquDuqvUu0jkwrn5GaQyZphI-Go1KVGbqhuOEkblV1rUUW4FyjdzYWFJGjwlLsnA8gHsN9cobiUmggvYP-ct037hWPLH-wAOVX8eKlay89SVccGivo1X8AAxVRFoqKMdwSxZ5nGeOl0mKNvsXyyHMglRPBFuheXzbUW_0tWHMX48pYfNEA.vyLvQLGuk1ApmbOX_8BXd5EhpDtaXQEwqCf5Hfdxay4&dib_tag=se&keywords=Dell%2B15%2BDB15250%2B%2F%2BDC15250&qid=1787605897&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=%2Caps%2C315&sr=8-7&th=1&ascsubtag=srctok-55b9b253884f65e7&btn_type=ss&btn_ref=srctok-55b9b253884f65e7&linkCode=ll2&tag=studentte0ce0-21&linkId=c1a713455c7e99738f47dd59124c7be9&ref_=as_li_ss_tl" ,
     "asin": "B0FDWH5WTL",
     "imageUrl": "https://pc-online.co.il/wp-content/uploads/2023/10/Dell-15-DC15250-1-780x780.webp"
   },
@@ -306,7 +306,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0DSG3DG8H",
     "score": 6.2,
     "verdict": "Budget option, but weak CPU and only 256 GB SSD",
-    "affiliateUrl": "https://link.amazon/B0fsh32uW",
+    "affiliateUrl": "https://www.amazon.in/Acer-Travelmate-Business-Processor-TMP215-53/dp/B0D9GWGW6Y?crid=37A3DPMSXPO9Z&dib=eyJ2IjoiMSJ9.fmOkqDwGzOPUHmMxAvTwifbfXfP23pCs17KQYmfiM9bZL2zfazIUsTb011cZk7VFFfRPC87XljZ-mDX-V_Oju0XyDQUpyoFE5ovqHrLtRxIfvEbE2EJE_SuYWNF1KnRvpoqR6KZWOPCjGBJGl-KlKJUhVh4PXQuT1j5hRqzEGUZrzeqZa-jdLtTsmUhQ2iC4WN5tWP30-y4HosRtRxMVtZ_x6l184F8OEMiB0PUuOa0.4dVRSLh-T6OfKwRsERvJnJr6GoxCxGb-fLNX3UxyOiA&dib_tag=se&keywords=acer+TravelMate+TMP215-53&qid=1787606024&sprefix=acer+%2Caps%2C354&sr=8-3&ascsubtag=srctok-727c218b2abbd0a9&btn_type=ss&btn_ref=srctok-727c218b2abbd0a9&linkCode=ll2&tag=studentte0ce0-21&linkId=c5ba14b54cc8f23d0198b9cb7b19f781&ref_=as_li_ss_tl" ,
     "asin": "B0DSG3DG8H",
     "imageUrl": "https://i.simpalsmedia.com/marketplace/products/original/a3a0273c58201d7928539388d67c9cf2.jpg"
   },
@@ -337,7 +337,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0H7HSNRK9",
     "score": 6.8,
     "verdict": "Decent MBA laptop, but Ryzen 3 7320U is weak for the price",
-    "affiliateUrl": "https://link.amazon/B05ybzUEr",
+    "affiliateUrl": "https://www.amazon.in/Lenovo-IdeaPad-39-6cm-Windows-82XQ01MAIN/dp/B0H7HSNRK9?crid=1CU07G8G4BXWM&dib=eyJ2IjoiMSJ9.k_Ap6PNq4USbA2R48Y92y_8KxUqv8cQr6523HVv8LTyUVeNT43E7QTF8EAwL7an1gDNotEWq6X5pfDre-AZU032XZI98_k8iR_cVJWI_DxD7F-qmTcIGe3UfckcZl708-W05MdO7JvR-NFH0KimhZZuxyvhKY2Gxz17YFy--KKVBKLjL8LD9HkuF0VelpzUP6vRnRC7w2JnDsRAkwn8TszCuJFNkxaZfk13pEiiBYTg.8BvwrykO46CT2KUnh_3kPOoVL2bQRimHwWwvX4Glnp4&dib_tag=se&keywords=lenovo+IdeaPad+Slim+3+15AMN8&qid=1787606136&sprefix=lenovo+ideapad+slim+3+15amn8%2Caps%2C333&sr=8-7&ascsubtag=srctok-638c6842b5ebd0f9&btn_type=ss&btn_ref=srctok-638c6842b5ebd0f9&linkCode=ll2&tag=studentte0ce0-21&linkId=07a11c9a9f853a398de69563ff464c2f&ref_=as_li_ss_tl" ,
     "asin": "B0H7HSNRK9",
     "imageUrl": "https://smadshop.md/image/cache/product/kompyuternaya-tehnika/noutbuki/lenovo/noutbuk-lenovo-ideapad-slim-3-15amn8-amd-ryzen-3-7320u-8gb-ddr4-512gb-ssd-abyss-blue-750x750.jpg"
   },
@@ -368,7 +368,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0CL7CMTXS",
     "score": 4.8,
     "verdict": "Not recommended for MBA students; weak 2-core CPU and 8 GB RAM limit",
-    "affiliateUrl": "https://link.amazon/B0gJSWROe",
+    "affiliateUrl": "https://www.amazon.in/Lenovo-V15-Lifetime-Validity-Warranty/dp/B0CL7CMTXS?crid=1RMXDFFAW12DP&dib=eyJ2IjoiMSJ9.4UrkMmNb_zWF3Z6niCfvH8ev9T_ZDi4mlMvqI4vqhGdVmyuMh2FvBmCy0Cih10ET3MKfdsSwjirm-iH-8jN2gYSy-wyd14D9Iy6WDxB0te1xPmsX12ragEupii48Jjvx8eAcM_cLeyp4cEDsDYzTLGgnQzNn4MoBNS0jlsrypp7ejJ0Z_Si513RQZk68y9jtuNsnzP0I2H2TRcvfYDqlqgKVAOyHpU-4fABCwftxJHs.hvbCZWK3Nd0BeS1LuHUDfwBqLTpjv_foNa52aZQnpjI&dib_tag=se&keywords=lenovo+V15+Athlon+7120U&qid=1787606257&sprefix=lenovo+v15+athlon+7120u%2Caps%2C350&sr=8-3&ascsubtag=srctok-732fc4ac7ef6b052&btn_type=ss&btn_ref=srctok-732fc4ac7ef6b052&linkCode=ll2&tag=studentte0ce0-21&linkId=31d91a3c72b18a170a1e5e989afc7495&ref_=as_li_ss_tl" ,
     "asin": "B0CL7CMTXS",
     "imageUrl": "https://smartbusiness.pe/cdn/shop/files/laptop-lenovo-v15-g4-amd-athlon-silver-7120u-ram-8gb-disco-256gb-ssd-156-fhd-freedos-82yu00x5lm-smart-business-7854252.jpg?v=1764119228"
   },
@@ -399,7 +399,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0GWQHQB4T",
     "score": 8.8,
     "verdict": "Excellent high-end student option with 24 GB RAM and 1 TB storage, especially for demanding Excel, Power BI and multitasking",
-    "affiliateUrl": "https://link.amazon/B05zrKwbb",
+    "affiliateUrl": "https://www.amazon.in/HP-Smartchoice-Upgradeable-Anti-Glare-Office24/dp/B0GWQHQB4T?crid=2W8LGKIMZCI14&dib=eyJ2IjoiMSJ9.TJX9Bidpfv9-H0ND3VFtPLnF3VoAJClfEDMI37bz6QDZ5zc4SMYtshxkZ-CUH6XvV9_ttHxdeJ81PM837uE9vclYYGe9QmFWz0dtBZ4zL84.aObuc0U5Zo2A-VltOL202qpdN6wq1gxH24XP4iLGWQY&dib_tag=se&keywords=HP%2B15%2BCJ9E1PA&qid=1787542849&sprefix=hp%2B15%2Bcj9e1pa%2Caps%2C341&sr=8-3&th=1&ascsubtag=srctok-102c12e06e372750&btn_type=ss&btn_ref=srctok-102c12e06e372750&linkCode=ll2&tag=studentte0ce0-21&linkId=36e537b715ebd37e5facccde6e386e1b&ref_=as_li_ss_tl" ,
     "asin": "B0GWQHQB4T",
     "imageUrl": "https://backend.paiinternational.in/media/images/3_5scc1L3.webp"
   },
@@ -430,7 +430,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0GWHPGLGM",
     "score": 7.4,
     "verdict": "Modern processor and Arc graphics, but 8 GB RAM and weak current reviews make it less compelling for students at this price",
-    "affiliateUrl": "https://link.amazon/B079P1R4t",
+    "affiliateUrl": "https://www.amazon.in/Dell-Anti-Glare-Graphics-Keyboard-Dedicated/dp/B0GWHPGLGM?crid=3VT50G11AKNON&dib=eyJ2IjoiMSJ9.iOTMS0hNU7REHe0W-poL1dQm8zgzp1v23ska4NXQAhK2wS_67FAmTIll_PbQuvk8KBmE_W3mKq0w2G2BgX6fpYZHlPu_LH640FEvQoaaW3Tskh6JcZq616b9R1tiWg0vBvdB0tSHLU3MJeo_qDyZCgqesxzzCyHX2CdZ1ABmYdGn3Cm7LRYGM5ns6R_ZgF0mbYKUr7bm5shyaAWdEiE5DcxUuBeYrtBrkO703k412XU.tSSucmvCKr9GOaI6BXJo14v7Ov2I8zyVU5NVk7i8HEQ&dib_tag=se&keywords=dell+DELL+15+D15260&qid=1787606346&sprefix=dell+dell+15+d15260%2Caps%2C322&sr=8-7&ascsubtag=srctok-7aa76559ad9e4692&btn_type=ss&btn_ref=srctok-7aa76559ad9e4692&linkCode=ll2&tag=studentte0ce0-21&linkId=482fc83615a6de8f64622cb510e3ed77&ref_=as_li_ss_tl" ,
     "asin": "B0GWHPGLGM",
     "imageUrl": "https://cdn.findprix.com/images/products/XY2v7oR78.webp"
   },
@@ -461,7 +461,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0F8P4Y7VF",
     "score": 8.6,
     "verdict": "Very portable and premium-looking option with OLED, 16 GB RAM and excellent claimed battery life; verify app compatibility for specialized Windows software before buying",
-    "affiliateUrl": "",
+    "affiliateUrl": "" ,
     "asin": "B0F8P4Y7VF",
     "imageUrl": "https://s3n.cashify.in/cashify/product/img/xhdpi/3bf2179e-8e21.jpg"
   },
