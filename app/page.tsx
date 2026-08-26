@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { affiliateLaptops, laptops } from "./data/laptops";
+import { recommendedLaptops, laptops } from "./data/laptops";
 
 export default function Home() {
-  const top = [...affiliateLaptops].sort((a, b) => (b.score ?? -1) - (a.score ?? -1)).slice(0, 5);
+  const top = [...recommendedLaptops].sort((a, b) => (b.score ?? -1) - (a.score ?? -1));
   return (
     <main className="min-h-screen bg-white text-slate-950">
       <section className="border-b bg-slate-50">

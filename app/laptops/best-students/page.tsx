@@ -16,8 +16,7 @@ export default function BestStudentsPage() {
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">Best laptops for students.<br /><span className="text-blue-600">Shortlist first. Compare second.</span></h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">We researched these laptops specifically from a student perspective — considering performance, RAM, storage, portability, battery, display, upgradeability and value instead of chasing specifications for their own sake.</p>
             <div className="mt-7 flex flex-wrap gap-3 text-sm font-semibold text-slate-700">
-              <span className="rounded-full bg-white px-4 py-2 shadow-sm ring-1 ring-slate-200">15 laptops researched</span>
-              <span className="rounded-full bg-white px-4 py-2 shadow-sm ring-1 ring-slate-200">5 affiliate links available</span>
+              <span className="rounded-full bg-white px-4 py-2 shadow-sm ring-1 ring-slate-200">{laptops.length} laptops researched</span>
               <span className="rounded-full bg-white px-4 py-2 shadow-sm ring-1 ring-slate-200">Updated August 2026</span>
             </div>
           </div>

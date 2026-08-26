@@ -15,6 +15,8 @@ export type Laptop = {
   battery: string;
   graphics: string;
   office: string;
+  windows: string;
+  microsoftOffice: string;
   warranty: string;
   upgradeRam: string;
   upgradeSsd: string;
@@ -45,6 +47,8 @@ export const laptops: Laptop[] = [
     "weight": "1.63 kg",
     "battery": "41 Wh",
     "graphics": "AMD Radeon Graphics (Integrated)",
+    "windows": "Windows 11 Home",
+    "microsoftOffice": "Microsoft Office Home & Student 2024",
     "office": "Windows 11 Home + Microsoft Office Home & Student 2024",
     "warranty": "1 Year",
     "upgradeRam": "Yes",
@@ -74,6 +78,8 @@ export const laptops: Laptop[] = [
     "weight": "1.59 kg",
     "battery": "36 Wh",
     "graphics": "AMD Radeon Graphics",
+    "windows": "Not specified",
+    "microsoftOffice": "Office 2024",
     "office": "Office 2024",
     "warranty": "1 Year",
     "upgradeRam": "Yes",
@@ -103,6 +109,8 @@ export const laptops: Laptop[] = [
     "weight": "1.50 kg",
     "battery": "Not specified",
     "graphics": "AMD Radeon Graphics",
+    "windows": "Windows 11 Home",
+    "microsoftOffice": "Microsoft Office (version not specified)",
     "office": "Office + Windows 11 Home",
     "warranty": "Not specified",
     "upgradeRam": "Yes",
@@ -132,6 +140,8 @@ export const laptops: Laptop[] = [
     "weight": "Not specified",
     "battery": "8.5 hours",
     "graphics": "AMD Radeon 610M",
+    "windows": "Windows 11",
+    "microsoftOffice": "Not specified / not included",
     "office": "Windows 11",
     "warranty": "1 Year Onsite",
     "upgradeRam": "No/Not confirmed",
@@ -141,7 +151,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0F29HNJL1",
     "score": 7.3,
     "verdict": "Good budget MBA laptop, but Acer TravelLite is the better choice if prices are reasonably close",
-    "affiliateUrl": "",
+    "affiliateUrl": "https://link.amazon/B00ol7CS2",
     "asin": "B0F29HNJL1",
     "imageUrl": "https://nordrent.lt/images/galleries/products/1690274569_imagehandler.jpg"
   },
@@ -161,6 +171,8 @@ export const laptops: Laptop[] = [
     "weight": "1.50 kg",
     "battery": "Not specified",
     "graphics": "Integrated AMD Radeon Graphics",
+    "windows": "DOS — Windows not included",
+    "microsoftOffice": "Not included",
     "office": "DOS",
     "warranty": "1 Year Manufacturer",
     "upgradeRam": "No",
@@ -190,6 +202,8 @@ export const laptops: Laptop[] = [
     "weight": "1.59 kg",
     "battery": "36 Wh",
     "graphics": "AMD Radeon Graphics",
+    "windows": "Windows 11 Home",
+    "microsoftOffice": "Not specified / not included",
     "office": "Windows 11 Home",
     "warranty": "1 Year Manufacturer",
     "upgradeRam": "Yes",
@@ -199,7 +213,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0DG2LSP9N",
     "score": 7.9,
     "verdict": "Good laptop for MBA work, but poor value at ₹59,990 when the newer Ryzen 5 7430U version is available at a similar price",
-    "affiliateUrl": "",
+    "affiliateUrl": "https://link.amazon/B08wSlZiU",
     "asin": "B0DG2LSP9N",
     "imageUrl": "https://static-ecapac.acer.com/media/catalog/product/a/l/al15-41_un.31zsi.036_steel_gray_base_image_3_un.31zsi.05j.jpg"
   },
@@ -219,6 +233,8 @@ export const laptops: Laptop[] = [
     "weight": "1.45 kg",
     "battery": "45.6 Wh",
     "graphics": "Intel UHD Graphics",
+    "windows": "Windows 11 Home",
+    "microsoftOffice": "Not specified / not included",
     "office": "Windows 11 Home",
     "warranty": "1 Year Manufacturer",
     "upgradeRam": "Yes",
@@ -228,7 +244,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0DMFBS37T",
     "score": 7.4,
     "verdict": "Good lightweight MBA laptop for basic productivity, but not one of the strongest choices for heavier Excel, Power BI or long-term performance",
-    "affiliateUrl": "",
+    "affiliateUrl": "https://link.amazon/B05qaj8AZ",
     "asin": "B0DMFBS37T",
     "imageUrl": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/96/MTA-91714046/acer_acer_aspire_3_a314_23m_ryzen_3_7320u_8gb_512gb_ssd_w11_ohs_14_h_full01_purhmu3w.jpg"
   },
@@ -248,6 +264,8 @@ export const laptops: Laptop[] = [
     "weight": "1.63 kg",
     "battery": "41 Wh",
     "graphics": "Intel UHD Graphics",
+    "windows": "Windows 11 Home",
+    "microsoftOffice": "Not specified / not included",
     "office": "Windows 11 Home",
     "warranty": "1 Year",
     "upgradeRam": "No",
@@ -257,7 +275,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0FDWH5WTL",
     "score": 7.5,
     "verdict": "Good general-purpose MBA laptop with an excellent 120Hz IPS anti-glare display, but weaker value than the Ryzen 5 options at a similar price",
-    "affiliateUrl": "",
+    "affiliateUrl": "https://link.amazon/B0aO6pC5q",
     "asin": "B0FDWH5WTL",
     "imageUrl": "https://pc-online.co.il/wp-content/uploads/2023/10/Dell-15-DC15250-1-780x780.webp"
   },
@@ -277,6 +295,8 @@ export const laptops: Laptop[] = [
     "weight": "1.60 kg",
     "battery": "Unknown",
     "graphics": "Intel Iris Xe Graphics",
+    "windows": "Windows 11 Home",
+    "microsoftOffice": "Not specified / not included",
     "office": "Windows 11 Home",
     "warranty": "1 Year Brand Warranty",
     "upgradeRam": "No",
@@ -286,7 +306,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0DSG3DG8H",
     "score": 6.2,
     "verdict": "Budget option, but weak CPU and only 256 GB SSD",
-    "affiliateUrl": "",
+    "affiliateUrl": "https://link.amazon/B0fsh32uW",
     "asin": "B0DSG3DG8H",
     "imageUrl": "https://i.simpalsmedia.com/marketplace/products/original/a3a0273c58201d7928539388d67c9cf2.jpg"
   },
@@ -306,6 +326,8 @@ export const laptops: Laptop[] = [
     "weight": "1.62 kg",
     "battery": "47 Wh / 9 hours",
     "graphics": "Integrated AMD Radeon Graphics",
+    "windows": "Windows 11 Home",
+    "microsoftOffice": "Office Home 2024",
     "office": "Office Home 2024 + Windows 11 Home",
     "warranty": "1 Year Onsite",
     "upgradeRam": "No",
@@ -315,7 +337,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0H7HSNRK9",
     "score": 6.8,
     "verdict": "Decent MBA laptop, but Ryzen 3 7320U is weak for the price",
-    "affiliateUrl": "",
+    "affiliateUrl": "https://link.amazon/B05ybzUEr",
     "asin": "B0H7HSNRK9",
     "imageUrl": "https://smadshop.md/image/cache/product/kompyuternaya-tehnika/noutbuki/lenovo/noutbuk-lenovo-ideapad-slim-3-15amn8-amd-ryzen-3-7320u-8gb-ddr4-512gb-ssd-abyss-blue-750x750.jpg"
   },
@@ -335,6 +357,8 @@ export const laptops: Laptop[] = [
     "weight": "1.50 kg",
     "battery": "65 Wh / 15 hours",
     "graphics": "AMD Radeon 610M",
+    "windows": "Windows 11",
+    "microsoftOffice": "Not specified / not included",
     "office": "Windows 11",
     "warranty": "1 Year Brand Warranty",
     "upgradeRam": "No",
@@ -344,7 +368,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0CL7CMTXS",
     "score": 4.8,
     "verdict": "Not recommended for MBA students; weak 2-core CPU and 8 GB RAM limit",
-    "affiliateUrl": "",
+    "affiliateUrl": "https://link.amazon/B0gJSWROe",
     "asin": "B0CL7CMTXS",
     "imageUrl": "https://smartbusiness.pe/cdn/shop/files/laptop-lenovo-v15-g4-amd-athlon-silver-7120u-ram-8gb-disco-256gb-ssd-156-fhd-freedos-82yu00x5lm-smart-business-7854252.jpg?v=1764119228"
   },
@@ -364,6 +388,8 @@ export const laptops: Laptop[] = [
     "weight": "1.65 kg",
     "battery": "41 Wh",
     "graphics": "Intel integrated graphics",
+    "windows": "Windows 11 Home",
+    "microsoftOffice": "Microsoft Office (version not specified)",
     "office": "Windows 11 Home + Microsoft Office",
     "warranty": "1 Year Manufacturer Warranty",
     "upgradeRam": "No",
@@ -393,6 +419,8 @@ export const laptops: Laptop[] = [
     "weight": "1.66 kg",
     "battery": "41 Wh / 7 hours",
     "graphics": "Intel Arc Graphics",
+    "windows": "Windows 11 Home",
+    "microsoftOffice": "Not specified / not included",
     "office": "Windows 11 Home + Copilot",
     "warranty": "1 Year",
     "upgradeRam": "No",
@@ -402,7 +430,7 @@ export const laptops: Laptop[] = [
     "amazonUrl": "https://www.amazon.in/dp/B0GWHPGLGM",
     "score": 7.4,
     "verdict": "Modern processor and Arc graphics, but 8 GB RAM and weak current reviews make it less compelling for students at this price",
-    "affiliateUrl": "",
+    "affiliateUrl": "https://link.amazon/B079P1R4t",
     "asin": "B0GWHPGLGM",
     "imageUrl": "https://cdn.findprix.com/images/products/XY2v7oR78.webp"
   },
@@ -422,6 +450,8 @@ export const laptops: Laptop[] = [
     "weight": "1.35 kg",
     "battery": "59 Wh / up to 34 hours claimed",
     "graphics": "Qualcomm Adreno GPU",
+    "windows": "Windows 11 Home",
+    "microsoftOffice": "Microsoft Office Home 2024",
     "office": "Windows 11 Home + Microsoft Office",
     "warranty": "1 Year Manufacturer Warranty",
     "upgradeRam": "No",
@@ -433,8 +463,17 @@ export const laptops: Laptop[] = [
     "verdict": "Very portable and premium-looking option with OLED, 16 GB RAM and excellent claimed battery life; verify app compatibility for specialized Windows software before buying",
     "affiliateUrl": "",
     "asin": "B0F8P4Y7VF",
-    "imageUrl": "https://www.staples.ca/cdn/shop/files/ec375fd55e49394b4060a81e611999998786183b_square3118874_1_1000x.jpg?v=1775057460"
+    "imageUrl": "https://s3n.cashify.in/cashify/product/img/xhdpi/3bf2179e-8e21.jpg"
   },
 ];
 
+const recommendedAsins = new Set([
+  "B0FDQ2R315",
+  "B0F8RCM49Y",
+  "B0GD76M7QK",
+  "B0DCSYTVDD",
+  "B0GWQHQB4T",
+]);
+
+export const recommendedLaptops = laptops.filter((laptop) => recommendedAsins.has(laptop.asin));
 export const affiliateLaptops = laptops.filter((laptop) => laptop.affiliateUrl);
