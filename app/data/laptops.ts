@@ -434,38 +434,7 @@ export const laptops: Laptop[] = [
     "asin": "B0GWHPGLGM",
     "imageUrl": "https://cdn.findprix.com/images/products/XY2v7oR78.webp"
   },
-  {
-    "brand": "HP",
-    "model": "HP OmniBook 5 / C08Q6PA",
-    "price": "Not listed",
-    "cpu": "Qualcomm Snapdragon X1-26-100",
-    "cores": "8-core Snapdragon X",
-    "ram": "16 GB",
-    "ramType": "LPDDR5X 8448 MHz",
-    "ssd": "512 GB SSD",
-    "display": "14-inch OLED",
-    "resolution": "1920 × 1200",
-    "panel": "OLED",
-    "brightness": "Not specified",
-    "weight": "1.35 kg",
-    "battery": "59 Wh / up to 34 hours claimed",
-    "graphics": "Qualcomm Adreno GPU",
-    "windows": "Windows 11 Home",
-    "microsoftOffice": "Microsoft Office Home 2024",
-    "office": "Windows 11 Home + Microsoft Office",
-    "warranty": "1 Year Manufacturer Warranty",
-    "upgradeRam": "No",
-    "upgradeSsd": "Not specified",
-    "rating": "4.1",
-    "reviews": "128",
-    "amazonUrl": "https://www.amazon.in/dp/B0F8P4Y7VF",
-    "score": 8.6,
-    "verdict": "Very portable and premium-looking option with OLED, 16 GB RAM and excellent claimed battery life; verify app compatibility for specialized Windows software before buying",
-    "affiliateUrl": "" ,
-    "asin": "B0F8P4Y7VF",
-    "imageUrl": "https://s3n.cashify.in/cashify/product/img/xhdpi/3bf2179e-8e21.jpg"
-  },
-];
+  ];
 
 const recommendedAsins = new Set([
   "B0FDQ2R315",

@@ -9,4 +9,3 @@ UI updates:
 - Fixed price sorting and ensured “Not listed” prices sort last.
 - Added a small live-price disclaimer.
 - Removed the black image panel and added a clean image fallback.
-- Replaced the broken HP OmniBook 5 C08Q6PA image with a current product image source.
