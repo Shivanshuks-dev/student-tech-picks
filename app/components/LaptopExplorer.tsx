@@ -158,7 +158,7 @@ export default function LaptopExplorer({ products }: { products: Laptop[] }) {
                 rel="nofollow sponsored noopener"
                 className="rounded-xl bg-blue-600 px-5 py-3 text-sm font-bold text-white transition hover:bg-blue-700"
               >
-                Check price on Amazon →
+                Buy on Amazon →
               </a>
               <span className="text-xs text-slate-400">Amazon link · sponsored</span>
             </div>
