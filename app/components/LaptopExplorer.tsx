@@ -147,7 +147,7 @@ export default function LaptopExplorer({ products }: { products: Laptop[] }) {
 
             {laptop.verdict && (
               <div className="mt-4 rounded-xl border border-blue-100 bg-blue-50/60 p-4 text-sm leading-6 text-slate-700">
-                <strong>Our take:</strong> {laptop.verdict}
+                <strong>Why we recommend it:</strong> {laptop.verdict}
               </div>
             )}
 
@@ -158,9 +158,9 @@ export default function LaptopExplorer({ products }: { products: Laptop[] }) {
                 rel="nofollow sponsored noopener"
                 className="rounded-xl bg-blue-600 px-5 py-3 text-sm font-bold text-white transition hover:bg-blue-700"
               >
-                Check price on Amazon →
+                Buy on Amazon →
               </a>
-              <span className="text-xs text-slate-400">Amazon link · sponsored</span>
+              <span className="text-xs text-slate-400">Amazon link · We may earn from qualifying purchases.</span>
             </div>
           </div>
         </div>
@@ -217,7 +217,7 @@ export default function LaptopExplorer({ products }: { products: Laptop[] }) {
             <div>
               <p className="text-sm font-bold uppercase tracking-widest text-blue-600">Our suggestions</p>
               <h2 className="mt-1 text-3xl font-bold tracking-tight">Our 5 Best Picks</h2>
-              <p className="mt-2 text-slate-600">These are the laptops we currently recommend most strongly for students.</p>
+              <p className="mt-2 text-slate-600">Not sure which one to choose? Start with our top picks — selected for real student workloads, not just specifications.</p>
             </div>
             <span className="text-sm font-semibold text-slate-500">Pinned at the top</span>
           </div>

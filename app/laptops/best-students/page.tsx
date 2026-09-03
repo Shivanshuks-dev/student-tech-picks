@@ -19,6 +19,7 @@ export default function BestStudentsPage() {
               <span className="rounded-full bg-white px-4 py-2 shadow-sm ring-1 ring-slate-200">{laptops.length} laptops researched</span>
               <span className="rounded-full bg-white px-4 py-2 shadow-sm ring-1 ring-slate-200">Updated August 2026</span>
             </div>
+            <p className="mt-4 text-lg font-semibold text-slate-800">Our recommendations, your choice.</p>
           </div>
         </div>
       </section>
@@ -27,7 +28,7 @@ export default function BestStudentsPage() {
         <div className="mb-10 max-w-3xl">
           <p className="text-sm font-bold uppercase tracking-widest text-blue-600">Our research</p>
           <h2 className="mt-2 text-3xl font-bold tracking-tight">Compare the complete shortlist</h2>
-          <p className="mt-3 leading-7 text-slate-600">Use the filters to narrow the list. The MBA score is a practical score for student workloads such as Office, Excel, Power BI, browsing, presentations and everyday multitasking.</p>
+          <p className="mt-3 leading-7 text-slate-600">Not sure which one to choose? Start with our top picks, then use the filters to narrow the rest. The MBA score is a practical score for student workloads such as Office, Excel, Power BI, browsing, presentations and everyday multitasking.</p>
         </div>
         <LaptopExplorer products={laptops} />
       </section>
