@@ -92,6 +92,7 @@ export default function LaptopExplorer({ products }: { products: Laptop[] }) {
     });
   }, [products, budget, ram, sort]);
 
+  const filtersActive = budget !== "all" || ram !== "all" || sort !== "score";
   const recommended = filtered.filter((p) => PICK_ASINS.has(p.asin));
   const others = filtered.filter((p) => !PICK_ASINS.has(p.asin));
 
@@ -121,7 +122,7 @@ export default function LaptopExplorer({ products }: { products: Laptop[] }) {
           <div className="p-6 md:p-7">
             <div className="flex flex-wrap items-center gap-2">
               {PICK_ASINS.has(laptop.asin) && (
-                <span className="rounded-full bg-blue-50 px-3 py-1 text-xs font-bold text-blue-700">OUR PICK</span>
+                <span className="rounded-full bg-blue-600 px-3 py-1 text-xs font-extrabold tracking-wide text-white shadow-sm">TOP PICK</span>
               )}
               <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">
                 MBA Score {scoreValue(laptop.score)}/10
@@ -174,7 +175,7 @@ export default function LaptopExplorer({ products }: { products: Laptop[] }) {
         <div className="grid gap-3 sm:grid-cols-3">
           <label className="text-sm font-semibold text-slate-700">
             Budget
-            <select value={budget} onChange={(e) => setBudget(e.target.value)} className="mt-2 w-full rounded-xl border border-slate-300 bg-white px-3 py-2.5 font-medium outline-none focus:border-blue-500">
+            <select value={budget} onChange={(e) => setBudget(e.target.value)} className="mt-2 min-h-11 w-full cursor-pointer rounded-xl border border-slate-300 bg-white px-3 py-2.5 font-medium outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100">
               <option value="all">All prices</option>
               <option value="50">Under ₹50,000</option>
               <option value="60">₹50,000–₹59,999</option>
@@ -185,7 +186,7 @@ export default function LaptopExplorer({ products }: { products: Laptop[] }) {
 
           <label className="text-sm font-semibold text-slate-700">
             RAM
-            <select value={ram} onChange={(e) => setRam(e.target.value)} className="mt-2 w-full rounded-xl border border-slate-300 bg-white px-3 py-2.5 font-medium outline-none focus:border-blue-500">
+            <select value={ram} onChange={(e) => setRam(e.target.value)} className="mt-2 min-h-11 w-full cursor-pointer rounded-xl border border-slate-300 bg-white px-3 py-2.5 font-medium outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100">
               <option value="all">Any RAM</option>
               <option value="16">16GB or more</option>
               <option value="8">8GB or less</option>
@@ -194,7 +195,7 @@ export default function LaptopExplorer({ products }: { products: Laptop[] }) {
 
           <label className="text-sm font-semibold text-slate-700">
             Sort by
-            <select value={sort} onChange={(e) => setSort(e.target.value)} className="mt-2 w-full rounded-xl border border-slate-300 bg-white px-3 py-2.5 font-medium outline-none focus:border-blue-500">
+            <select value={sort} onChange={(e) => setSort(e.target.value)} className="mt-2 min-h-11 w-full cursor-pointer rounded-xl border border-slate-300 bg-white px-3 py-2.5 font-medium outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100">
               <option value="score">MBA score</option>
               <option value="price">Lowest price</option>
               <option value="weight">Lightest</option>
@@ -211,30 +212,50 @@ export default function LaptopExplorer({ products }: { products: Laptop[] }) {
         Some links on this page are affiliate links. If you buy through them, we may earn a commission at no extra cost to you.
       </div>
 
-      {recommended.length > 0 && (
-        <section className="mb-12">
-          <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
-            <div>
-              <p className="text-sm font-bold uppercase tracking-widest text-blue-600">Our suggestions</p>
-              <h2 className="mt-1 text-3xl font-bold tracking-tight">Our 5 Best Picks</h2>
-              <p className="mt-2 text-slate-600">These are the laptops we currently recommend most strongly for students.</p>
+      {!filtersActive ? (
+        <>
+          {recommended.length > 0 && (
+            <section className="mb-12">
+              <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+                <div>
+                  <p className="text-sm font-bold uppercase tracking-widest text-blue-600">Our suggestions</p>
+                  <h2 className="mt-1 text-3xl font-bold tracking-tight">Our 5 Best Picks</h2>
+                  <p className="mt-2 text-slate-600">Not sure which one to choose? Start with our top picks — selected for real student workloads, not just specifications.</p>
+                </div>
+                <span className="text-sm font-semibold text-slate-500">Pinned at the top</span>
+              </div>
+              <div className="space-y-5">{recommended.map((laptop) => <Card key={laptop.asin} laptop={laptop} />)}</div>
+            </section>
+          )}
+
+          <section>
+            <div className="mb-5 flex items-end justify-between gap-4">
+              <div>
+                <p className="text-sm font-bold uppercase tracking-widest text-slate-500">Complete research list</p>
+                <h2 className="mt-1 text-2xl font-bold tracking-tight">Other researched laptops</h2>
+              </div>
+              <span className="text-sm text-slate-500">{others.length} results</span>
             </div>
-            <span className="text-sm font-semibold text-slate-500">Pinned at the top</span>
+            <div className="space-y-5">{others.map((laptop) => <Card key={laptop.asin} laptop={laptop} />)}</div>
+          </section>
+        </>
+      ) : (
+        <section>
+          <div className="mb-5 flex items-end justify-between gap-4">
+            <div>
+              <p className="text-sm font-bold uppercase tracking-widest text-blue-600">Filtered results</p>
+              <h2 className="mt-1 text-2xl font-bold tracking-tight">Laptops matching your choices</h2>
+            </div>
+            <span className="text-sm text-slate-500">{filtered.length} results</span>
           </div>
-          <div className="space-y-5">{recommended.map((laptop) => <Card key={laptop.asin} laptop={laptop} />)}</div>
+          <div className="space-y-5">{filtered.map((laptop) => <Card key={laptop.asin} laptop={laptop} />)}</div>
+          {filtered.length === 0 && (
+            <div className="rounded-2xl border border-slate-200 bg-white p-8 text-center text-slate-600">
+              No laptops match these filters. Try widening your budget or RAM selection.
+            </div>
+          )}
         </section>
       )}
-
-      <section>
-        <div className="mb-5 flex items-end justify-between gap-4">
-          <div>
-            <p className="text-sm font-bold uppercase tracking-widest text-slate-500">Complete research list</p>
-            <h2 className="mt-1 text-2xl font-bold tracking-tight">Other researched laptops</h2>
-          </div>
-          <span className="text-sm text-slate-500">{others.length} results</span>
-        </div>
-        <div className="space-y-5">{others.map((laptop) => <Card key={laptop.asin} laptop={laptop} />)}</div>
-      </section>
     </>
   );
 }
